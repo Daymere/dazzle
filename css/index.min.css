@@ -602,12 +602,22 @@ body.cover:after {
   padding-top: 7.2rem;
   height: 873px;
   border-bottom: 87px solid #fff;
-  background: #000 url(../assets/images/hero-back.webp) top center no-repeat;
-  background-size: cover;
+  background: #000;
   position: relative;
 }
 
+.home__back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
 .home-container {
+  position: relative;
+  z-index: 2;
   padding-left: 3.6rem;
   padding-right: 0;
   margin-top: 105px;
@@ -695,6 +705,7 @@ body.cover:after {
   position: absolute;
   top: 250px;
   right: 40px;
+  z-index: 5;
 }
 
 .home-social {
