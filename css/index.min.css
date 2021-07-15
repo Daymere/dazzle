@@ -679,13 +679,13 @@ body.cover:after {
   margin-right: 1rem;
 }
 .home-btn.home-download:before {
-  background-image: url(../assets/images/icons/icon-download.webp);
+  background-image: url(../assets/images/icons/icon-download.png);
   transition: filter 0.2s linear;
 }
 .home-btn.home-play:before {
   width: 1.1rem;
   height: 1.1rem;
-  background-image: url(../assets/images/icons/icon-video.webp);
+  background-image: url(../assets/images/icons/icon-video.png);
   transition: filter 0.2s linear;
 }
 .home-btn:hover {
