@@ -1044,7 +1044,7 @@ body.cover:after {
 }
 .process {
   margin-top: 2rem;
-  overflow-y: clip;
+  overflow: hidden;
 }
 
 .process-title {
@@ -1118,11 +1118,6 @@ body.cover:after {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  overflow: inherit;
-}
-
-.process-cards-image {
-  max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -1177,6 +1172,13 @@ body.cover:after {
 
   .process-img {
     margin-top: 5rem;
+  }
+
+  .process-cards-image {
+    max-width: 200%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 565px) {
