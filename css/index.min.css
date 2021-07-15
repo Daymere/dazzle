@@ -155,7 +155,6 @@ body {
   margin: 0;
   font-size: 1.5rem;
   min-height: 100vh;
-  overflow-x: hidden;
   position: relative;
 }
 body:after {
@@ -1118,6 +1117,12 @@ body.cover:after {
   margin-top: 12rem;
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  overflow: inherit;
+}
+
+.process-cards-image {
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
